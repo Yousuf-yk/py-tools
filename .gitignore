@@ -1,0 +1,23 @@
+
+# Node dependencies
+**/node_modules/
+**/node_modules - Copy/
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+
+# Python
+**/__pycache__/
+*.py[cod]
+.venv/
+
+# Generated PDFs and temporary files
+backend/temp_outputs/*
+backend/temp_uploads/*
+
+# Frontend build
+frontend/dist/
+
+# Logs
+*.log
